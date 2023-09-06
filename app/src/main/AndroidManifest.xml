@@ -13,6 +13,9 @@
         android:theme="@style/Theme.SiakadUW"
         tools:targetApi="31">
         <activity
+            android:name=".ui.FrameMenu"
+            android:exported="false" />
+        <activity
             android:name=".ui.FrameLogin"
             android:exported="false" />
         <activity
